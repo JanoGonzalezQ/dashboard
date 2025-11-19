@@ -1,10 +1,15 @@
 import React from "react";
+import NavBarPrincipal from "./components/navbar";
+import SideMenuPrincipal from "./components/sidemenu";
+import Kpis from "./components/kpis";
 
 function Dahboard(){
     return (
 
         <div>
-            <h1>Nueva pagina</h1>
+            <NavBarPrincipal/>
+            <SideMenuPrincipal/>
+            <Kpis/>
         </div>
     );
 }

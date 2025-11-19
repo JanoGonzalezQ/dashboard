@@ -137,7 +137,7 @@ function NavBarPrincipal () {
     </li>
   </ul>
 </nav>
-{/* /.navbar */}
+
 
     );
 }
