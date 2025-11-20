@@ -52,8 +52,8 @@ function ListaUsuarios() {
                                                         <h2 className="lead"><b>{usuario.name}</b></h2>
                                                         <p className="text-muted text-sm"><b>About: </b> {usuario.about} </p>
                                                         <ul className="ml-4 mb-0 fa-ul text-muted">
-                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-building" /></span> {usuario.address}</li>
-                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-phone" /></span> {usuario.phone}</li>
+                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-building" /></span> Address: {usuario.address}</li>
+                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-phone" /></span> Phone: {usuario.phone}</li>
                                                         </ul>
                                                     </div>
                                                     <div className="col-5 text-center">
